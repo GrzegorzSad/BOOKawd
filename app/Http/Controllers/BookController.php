@@ -1,10 +1,10 @@
 <?php
 
-use App\Models\Book;
-
-use App\Http\Controller;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
+use App\Models\Book;
 
 class BookController extends Controller
 {
