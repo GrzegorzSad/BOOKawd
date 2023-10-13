@@ -23,6 +23,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('/books',BookController::class);
 
+Route::get('/books/{book}', [BookController::class, 'show'])->name('books.show');
+
 // Route::resource('books', 'BookController'); //old version dont use
 
 

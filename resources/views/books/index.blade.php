@@ -31,6 +31,6 @@
     </tbody>
 </table>D
 </div>
-@endsection
+{{--@endsection--}}
 
 </html>
